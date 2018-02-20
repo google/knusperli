@@ -1,0 +1,6 @@
+# Bazel build directories
+/bazel-bin/
+/bazel-genfiles/
+/bazel-knusperli/
+/bazel-out/
+/bazel-testlogs/
