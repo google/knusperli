@@ -24,4 +24,8 @@ the image. Knusperli instead chooses the value in the interval that reduces
 discontinuities at block boundaries. The coefficients that Knusperli uses, would
 have rounded to the same values that are stored in the JPEG image.
 
+## Disclaimer
+
+This is not an officially supported Google product.
+
 [bazel]: https://bazel.build/
