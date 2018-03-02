@@ -11,8 +11,8 @@ TODO: Add some pretty pictures here to demonstrate the effect.
 
 Knusperli builds with [Bazel][bazel]:
 
-    CC=gcc bazel build :decode
-    bazel-bin/decode input.jpg output.png
+    CC=gcc bazel build :knusperli
+    bazel-bin/knusperli input.jpg output.png
 
 ## Details
 
