@@ -5,11 +5,11 @@ interpreting quantized DCT coefficients in the image data as an interval, rather
 than a fixed value, and choosing the value from that interval that minimizes
 discontinuities at block boundaries.
 
-Left: a traditional JPEG decoder (Imagemagick 6.9.7-4). Right: Knusperli.
+Left: a traditional JPEG decoder (Imagemagick 7.0.8-59). Right: Knusperli.
 
-![Lena JPEG, zoomed][lena-jpeg-crop] ![Lena Knusperli, zoomed][lena-knus-crop]
+![baboon JPEG, zoomed][baboon-jpeg-crop] ![baboon Knusperli, zoomed][baboon-knus-crop]
 
-![Lena JPEG][lena-jpeg] ![Lena Knusperli][lena-knus]
+![baboon JPEG][baboon-jpeg] ![baboon Knusperli][baboon-knus]
 
 ## Building
 
@@ -33,7 +33,7 @@ have rounded to the same values that are stored in the JPEG image.
 This is not an officially supported Google product.
 
 [bazel]: https://bazel.build/
-[lena-jpeg-crop]: doc/img/lena.q50.jpeg.crop.png
-[lena-knus-crop]: doc/img/lena.q50.knusperli.crop.png
-[lena-jpeg]: doc/img/lena.q50.jpeg.png
-[lena-knus]: doc/img/lena.q50.knusperli.png
+[baboon-jpeg-crop]: doc/img/baboon.q50.jpeg.crop.png
+[baboon-knus-crop]: doc/img/baboon.q50.knusperli.crop.png
+[baboon-jpeg]: doc/img/baboon.q50.jpeg.png
+[baboon-knus]: doc/img/baboon.q50.knusperli.png
