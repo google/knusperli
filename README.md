@@ -5,11 +5,10 @@ interpreting quantized DCT coefficients in the image data as an interval, rather
 than a fixed value, and choosing the value from that interval that minimizes
 discontinuities at block boundaries.
 
-Left: a traditional JPEG decoder (Imagemagick 7.0.8-59). Right: Knusperli.
-
-![baboon JPEG, zoomed][baboon-jpeg-crop] ![baboon Knusperli, zoomed][baboon-knus-crop]
-
-![baboon JPEG][baboon-jpeg] ![baboon Knusperli][baboon-knus]
+a traditional JPEG decoder (Imagemagick 7.0.8-59) | Knusperli
+--------------------------------------------------|-----------------------------------------------
+![baboon JPEG, zoomed][baboon-jpeg-crop]          | ![baboon Knusperli, zoomed][baboon-knus-crop]
+![baboon JPEG][baboon-jpeg]                       | ![baboon Knusperli][baboon-knus]
 
 ## Building
 
