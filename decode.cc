@@ -60,4 +60,6 @@ int main(int argc, char** argv) {
     printf("Failed to write png.\n");
     return 1;
   }
+
+  return 0;
 }
