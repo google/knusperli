@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
     return 1;
   }
 
-  std::ifstream in_file(argv[1]);
+  std::ifstream in_file(argv[1], std::ifstream::binary);
   if (!in_file.good()) {
     printf("Failed to open input file.\n");
     return 1;
